@@ -53,4 +53,88 @@
             android:layout_below="@+id/textViewPlateNum"
             android:layout_marginTop="10dp"/>
 
+        <TextView
+            android:id="@+id/textViewPickup"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="WORTH AVENUE"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/background"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textViewPhoneNum"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/textViewTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To"
+            android:textColor="@color/text_bg"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textViewPickup"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:id="@+id/textViewDropoff"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="CALLE OCHO"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/background"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textViewTo"
+            android:layout_marginTop="30dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeViewSubBottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeViewSubActivity"
+        android:layout_marginTop="20dp"
+        android:background="@color/bg_purple">
+
+        <TextView
+            android:id="@+id/textViewPredictedCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PREDICTED COST"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageViewPriceBg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/price_bg"
+            android:layout_below="@id/textViewPredictedCost"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/textViewPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="80$"
+            android:textStyle="bold"
+            android:textColor="@color/bg_purple"
+            android:textSize="30sp"
+            android:layout_below="@+id/textViewPredictedCost"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp"/>
+
+    </RelativeLayout>
+
 </RelativeLayout>
+
+
+
