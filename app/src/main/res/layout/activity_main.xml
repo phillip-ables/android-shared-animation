@@ -9,52 +9,52 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="440dp"
+        android:layout_height="560dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:background="@color/bg_purple"
         android:id="@+id/rl1">
 
+        <TextView
+            android:id="@+id/textViewHey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="33dp"
+            android:text="HEY, MARTHA !"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
         <ImageView
             android:id="@+id/imageViewCar"
             android:layout_width="140dp"
             android:layout_height="160dp"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="60dp"
-            android:src="@drawable/car" />
-
-        <TextView
-            android:id="@+id/textViewHey"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/imageViewCar"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="30dp"
-            android:text="HEY, MARTHA !"
-            android:textColor="@android:color/white"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            android:src="@drawable/car"
+            android:layout_below="@+id/textViewHey"
+            android:layout_marginTop="120dp"/>
 
         <TextView
             android:id="@+id/textViewMessage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/textViewHey"
+            android:layout_below="@+id/imageViewCar"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="25dp"
             android:text="YOUR RIDE HAS ARRIVED"
             android:textColor="@android:color/white"
             android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_marginTop="-18dp"/>
 
         <TextView
             android:id="@+id/textViewDriver"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/textViewMessage"
+            android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="12dp"
+            android:layout_marginBottom="70dp"
             android:text="DRIVER"
             android:textColor="@android:color/white"
             android:textSize="18sp"
@@ -71,11 +71,13 @@
             android:id="@+id/textViewFirstName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
             android:text="TOBY"
             android:textColor="@color/bg_purple"
             android:textSize="18sp"
-            android:textStyle="bold"
-            android:layout_centerHorizontal="true"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textViewDriverDetails"
@@ -101,6 +103,6 @@
         android:layout_width="110dp"
         android:layout_height="110dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="375dp"
+        android:layout_marginTop="490dp"
         android:src="@drawable/driver"/>
 </RelativeLayout>
