@@ -85,7 +85,6 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/textViewFirstName"
             android:text="XXX-555-2212"
-            android:textStyle="bold"
             android:textSize="18sp"
             android:textColor="@color/text_bg"
             android:layout_centerHorizontal="true"/>
@@ -95,7 +94,8 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/textViewDriverDetails"
-            />
+            android:text="VIEW DETAILS"
+            android:textStyle="bold"/>
     </RelativeLayout>
 
 
