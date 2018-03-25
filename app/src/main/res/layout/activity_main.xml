@@ -70,6 +70,7 @@
 
         <TextView
             android:id="@+id/textViewFirstName"
+            android:transistionName="firstName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -82,6 +83,7 @@
 
         <TextView
             android:id="@+id/textViewPlateNum"
+            android:transistionName="plateNumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/textViewFirstName"
@@ -111,5 +113,6 @@
         android:layout_height="110dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="450dp"
+        android:transistionName="driver"
         android:src="@drawable/driver"/>
 </RelativeLayout>

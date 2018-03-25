@@ -13,6 +13,7 @@
 
         <ImageView
             android:id="@+id/imageViewDriver"
+            android:transitionName="driver"
             android:layout_width="125dp"
             android:layout_height="125dp"
             android:src="@drawable/driver"
@@ -21,6 +22,7 @@
 
         <TextView
             android:id="@+id/textViewFirstName"
+            android:transitionName="firstName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
@@ -33,6 +35,7 @@
 
         <TextView
             android:id="@+id/textViewPlateNum"
+            android:transitionName="plateNum"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" C R 4 - 3 Y 3 "
