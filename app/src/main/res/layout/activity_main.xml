@@ -81,11 +81,11 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textViewDriverDetails"
+            android:id="@+id/textViewPlateNum"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/textViewFirstName"
-            android:text="XXX-555-2212"
+            android:text="CR4-3Y3"
             android:textSize="18sp"
             android:textColor="@color/text_bg"
             android:layout_centerHorizontal="true"/>
@@ -94,7 +94,7 @@
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_below="@+id/textViewDriverDetails"
+            android:layout_below="@+id/textViewPlateNum"
             android:background="@drawable/background"
             android:text="VIEW DETAILS"
             android:textStyle="bold"
